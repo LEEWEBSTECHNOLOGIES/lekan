@@ -14,7 +14,7 @@ const Portfolio = () => {
               >
                 <img
                   className="img-fluid"
-                  style={{ width: "700px", height: "1000px" }}
+                  style={{ width: "700px", height: "800px" }}
                   src="assets/1.jpg"
                   alt="..."
                 />
@@ -34,7 +34,7 @@ const Portfolio = () => {
               >
                 <img
                   className="img-fluid"
-                  style={{ width: "700px", height: "1000px" }}
+                  style={{ width: "700px", height: "800px" }}
                   src="assets/2.png"
                   alt="..."
                 />
@@ -52,7 +52,7 @@ const Portfolio = () => {
               >
                 <img
                   className="img-fluid"
-                  style={{ width: "700px", height: "1000px" }}
+                  style={{ width: "700px", height: "800px" }}
                   src="assets/3.png"
                   alt="..."
                 />
@@ -70,7 +70,7 @@ const Portfolio = () => {
               >
                 <img
                   className="img-fluid"
-                  style={{ width: "700px", height: "1000px" }}
+                  style={{ width: "700px", height: "800px" }}
                   src="assets/4.png"
                   alt="..."
                 />
@@ -90,7 +90,7 @@ const Portfolio = () => {
               >
                 <img
                   className="img-fluid"
-                  style={{ width: "700px", height: "1000px" }}
+                  style={{ width: "700px", height: "800px" }}
                   src="assets/5.jpg"
                   alt="..."
                 />
@@ -110,7 +110,7 @@ const Portfolio = () => {
               >
                 <img
                   className="img-fluid"
-                  style={{ width: "700px", height: "1000px" }}
+                  style={{ width: "700px", height: "800px" }}
                   src="assets/6.jpg"
                   alt="..."
                 />
