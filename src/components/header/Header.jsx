@@ -12,7 +12,7 @@ const Header = () => {
                 <Typewriter
                   options={{
                     strings: [
-                      "Your Favorite Place for modern graphic design, web app, and website.",
+                      "Your Favourite Place for modern graphic design, web app, and website.",
                     ],
                     autoStart: true,
                     loop: true,
