@@ -16,15 +16,15 @@ const About = () => {
                 education respectively. I graduated in Accounting from the
                 university of Lagos in 2014. I attend Annahdah institute of
                 Arabic and Islamic studies from 2007 till date. I attended Zad
-                Academy, Makkah, Kingdom of Saudi Arabia where I bagged diploma
-                in Islamic Law (with a distinction) from 2020 to 2022. I worked
-                as a software developer and graphic designer intern in Techend
-                Incubation Limited, Oshodi, Lagos from 2018 to 2020. I now work
-                as a freelancer - Graphic designer and web developer.
+                Academy, Makkah, Kingdom of Saudi Arabia where I bagged a
+                diploma in Islamic Law (with a distinction) from 2020 to 2022. I
+                worked as a software developer and graphic designer intern in
+                Techend Incubation Limited, Oshodi, Lagos from 2018 to 2020. I
+                now work as a freelancer - Graphic designer and web developer.
               </p>
               <a
                 className="btn btn-light btn-xl"
-                href="../assets/Aliu_Olalekan_Ajibade.pdf"
+                href="../assets/aliuOlalekanAjibade.pdf"
                 download
               >
                 Download CV
