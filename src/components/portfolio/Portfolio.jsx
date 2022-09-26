@@ -122,6 +122,64 @@ const Portfolio = () => {
                 </div>
               </a>
             </div>
+            <div className="col-lg-4 col-sm-6">
+              <a
+                className="portfolio-box"
+                href="assets/img/portfolio/fullsize/6.jpg"
+                title="Project Name"
+              >
+                <img
+                  className="img-fluid"
+                  style={{ width: "700px", height: "800px" }}
+                  src="assets/7.jpg"
+                  alt="..."
+                />
+                <div className="portfolio-box-caption p-3">
+                  <div className="project-category text-white-50">Category</div>
+                  <div className="project-name">
+                    Leewebs Advert Banner Design
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="col-lg-4 col-sm-6">
+              <a
+                className="portfolio-box"
+                href="assets/img/portfolio/fullsize/6.jpg"
+                title="Project Name"
+              >
+                <img
+                  className="img-fluid"
+                  style={{ width: "700px", height: "800px" }}
+                  src="assets/8.jpg"
+                  alt="..."
+                />
+                <div className="portfolio-box-caption p-3">
+                  <div className="project-category text-white-50">Category</div>
+                  <div className="project-name">
+                    Leewebs Advert Banner Design
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className="col-lg-4 col-sm-6">
+              <a
+                className="portfolio-box"
+                href="assets/img/portfolio/fullsize/6.jpg"
+                title="Project Name"
+              >
+                <img
+                  className="img-fluid"
+                  style={{ width: "700px", height: "800px" }}
+                  src="assets/9.png"
+                  alt="..."
+                />
+                <div className="portfolio-box-caption p-3">
+                  <div className="project-category text-white-50">Category</div>
+                  <div className="project-name">Leewebs Logo Design</div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
