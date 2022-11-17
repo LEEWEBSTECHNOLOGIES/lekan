@@ -1,11 +1,29 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import "../../app.css";
 
 const Contact = () => {
-  const [message, setMessage] = useState(false);
+  const formRef = useRef();
+  const [done, setDone] = useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();
-    setMessage(true);
+    setDone(true);
+
+    emailjs
+      .sendForm(
+        "service_2bwa8bq",
+        "template_nx6tqat",
+        formRef.current,
+        "D7s2QtY9npU46KDNG"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
   return (
     <div>
@@ -24,6 +42,7 @@ const Contact = () => {
           <div className="row gx-4 gx-lg-5 justify-content-center mb-5">
             <div className="col-lg-6">
               <form
+                ref={formRef}
                 onSubmit={handleSubmit}
                 id="contactForm"
                 data-sb-form-api-token="API_TOKEN"
@@ -34,6 +53,7 @@ const Contact = () => {
                     id="name"
                     type="text"
                     placeholder="Enter your name..."
+                    name="user_name"
                     data-sb-validations="required"
                     required
                   />
@@ -50,7 +70,8 @@ const Contact = () => {
                     className="form-control"
                     id="email"
                     type="email"
-                    placeholder="name@example.com"
+                    placeholder="Enter your email address..."
+                    name="user_email"
                     data-sb-validations="required,email"
                     required
                   />
@@ -73,20 +94,21 @@ const Contact = () => {
                 <div className="form-floating mb-3">
                   <input
                     className="form-control"
-                    id="phone"
-                    type="tel"
-                    placeholder="+2348084838268"
+                    id="subject"
+                    type="text"
+                    placeholder="Subject"
+                    name="user_subject"
                     data-sb-validations="required"
                     required
                   />
-                  <label htmlFor="phone" required>
-                    Phone number
+                  <label htmlFor="subject" required>
+                    Subject
                   </label>
                   <div
                     className="invalid-feedback"
-                    data-sb-feedback="phone:required"
+                    data-sb-feedback="subject:required"
                   >
-                    A phone number is required.
+                    Subject is required.
                   </div>
                 </div>
                 <div className="form-floating mb-3">
@@ -95,6 +117,7 @@ const Contact = () => {
                     id="message"
                     type="text"
                     placeholder="Enter your message here..."
+                    name="message"
                     style={{ height: "10rem" }}
                     data-sb-validations="required"
                     defaultValue={""}
@@ -118,9 +141,7 @@ const Contact = () => {
                     Submit
                   </button>
                 </div>
-                {message && (
-                  <span>Thanks, I 'll reply as soon as possible.</span>
-                )}
+                <h1 className="m">{done && "Thank you..."}</h1>
               </form>
             </div>
           </div>

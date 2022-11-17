@@ -15,7 +15,7 @@ const Portfolio = () => {
                 <img
                   className="img-fluid"
                   style={{ width: "700px", height: "800px" }}
-                  src="assets/1.jpg"
+                  src="assets/10.jpg"
                   alt="..."
                 />
                 <div className="portfolio-box-caption">
@@ -199,6 +199,11 @@ const Portfolio = () => {
             <h4>
               <a className="project2" href="https://emachiog.netlify.app">
                 Emachiog
+              </a>
+            </h4>
+            <h4>
+              <a className="project2" href="https://aliuajibade.netlify.app/">
+                Portfolio 3
               </a>
             </h4>
           </div>
