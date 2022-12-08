@@ -202,8 +202,13 @@ const Portfolio = () => {
               </a>
             </h4>
             <h4>
-              <a className="project2" href="https://aliuajibade.netlify.app/">
+              <a className="project2" href="https://aliuajibade.netlify.app">
                 Portfolio 3
+              </a>
+            </h4>
+            <h4>
+              <a className="project2" href="https://lukend.netlify.app">
+                Lukend
               </a>
             </h4>
           </div>
