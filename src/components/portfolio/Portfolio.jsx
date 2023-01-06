@@ -219,6 +219,14 @@ const Portfolio = () => {
                 Facebook-Clone UI
               </a>
             </h4>
+            <h4>
+              <a
+                className="project2"
+                href="https://tesla-clone-leewebs.netlify.app"
+              >
+                Tesla-Clone UI
+              </a>
+            </h4>
           </div>
         </div>
       </section>
